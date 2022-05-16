@@ -1,0 +1,209 @@
+/* Trabalho feito por: Raphael Angelo e Vinícius Alves */
+
+    *{
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .container{
+        width: 800px;
+        background-color: #E7E5E8;
+        margin: 0 auto;
+        border: 1px solid #4473C5;;
+    }
+
+/* Cabeçalho */
+
+    .cabecalho{
+        background-color: #99BAD9;
+        text-align: center;
+        padding: 7px;
+    }
+
+    h1{
+        font-size: 20px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+/* Menu */
+
+    .menu {
+        padding: 5px;
+        background-color: #D6DBDF;
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+    }
+
+    .menu nav ul li {
+        display: inline-block;
+    }
+
+    .menu nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Noto Sans JP', sans-serif;
+        padding: 7px;
+    }
+
+/* Bordas */
+
+    .borda-de-fora{
+        border-left: 20px solid #E7E5E8;
+        border-right: 20px solid #E7E5E8;
+        border-bottom: 20px solid #E7E5E8;
+        border-top: 7px solid #E7E5E8;
+
+    }
+
+    .borda-de-dentro{
+        border-left: 20px solid #4473C5;
+        border-right: 20px solid #4473C5;
+        border-bottom: 20px solid #4473C5;
+        
+    }
+
+/* Formulário */
+
+    .ordem_de_servicos{
+        background: #4473C5;
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Noto Sans JP', sans-serif;
+        padding: 14px;
+    }
+
+    .campos{
+        text-align: right;
+        font-weight: bolder;
+        padding: 30px 50px 10px 10px;
+    }
+
+    .cadastro{
+        padding: 0px 0px 0px 130px;
+        display: block;
+    }
+
+    .numero{
+        padding-right: 13px;
+    }
+
+    #numeroOs{
+        width: 30%;
+        height: 40px;
+        margin-top: 30px;
+        background-color: rgb(247, 247, 247);
+        border: 2px solid #4473C5;
+        background-color: #D6DBDF;
+    }
+
+    .data{
+        padding-left: 50px;
+    }
+
+    #data{
+        width: 29.3%;
+        height: 40px;
+        margin-right: 20%;
+        margin: 5px;
+        background-color: rgb(247, 247, 247);
+        border: 2px solid #4473C5;
+        background-color: #D6DBDF;
+    }
+
+    .equipamento{
+        padding-right: 3px;
+    }
+
+    #equipamento{
+        width:  76.5%;
+        height: 40px;
+        margin: 2px;
+        background-color: rgb(247, 247, 247);
+        border: 2px solid #4473C5;
+        background-color: #D6DBDF;
+    }
+
+    .defeito{
+        padding-right: 40px;
+    }
+
+    #defeito{
+        width: 76.5%;
+        height: 40px;
+        margin: 2px;
+        background-color: rgb(247, 247, 247);
+        border: 2px solid #4473C5;
+        background-color: #D6DBDF;
+    }
+
+    .servico{
+        padding-right: 47px;
+    }
+
+    #servico{
+        width: 76.4%;
+        height: 40px;
+        margin: 2px;
+        background-color: rgb(247, 247, 247);
+        border: 2px solid #4473C5;
+        background-color: #D6DBDF;
+    }
+
+    .tecnico{
+        padding-right: 41px;
+    }
+
+    #tecnico{
+        width: 34.2%;
+        height: 40px;
+        margin: 5px;
+        background-color: rgb(247, 247, 247);
+        border: 2px solid #4473C5;
+        background-color: #D6DBDF;
+    }
+
+    #valorTotal{
+        max-width: 28%;
+        height: 40px;
+        background-color: rgb(247, 247, 247);
+        border: 2px solid #4473C5;
+        background-color: #D6DBDF;
+    }
+
+    .id-cliente{
+        padding-right: 25px;
+    }
+
+    #idCliente{
+        width: 19%;
+        height: 40px;
+        margin: 5px;
+        background-color: rgb(247, 247, 247);
+        border: 2px solid #4473C5;
+        background-color: #D6DBDF;
+    }
+
+    .cliente{
+        padding-left: 20px;
+    }
+
+    #cliente{
+        width: 43.2%;
+        height: 40px;
+        margin: 5px;
+        background-color: rgb(247, 247, 247);
+        border: 2px solid #4473C5;
+        background-color: #D6DBDF;
+    }
+
+/* Botões */
+
+    .botoes{
+        padding-left: 247px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .botoes div{
+        display: inline-block;
+    }
